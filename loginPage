@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Login</title> 
+    </head>
+    <body>
+        password:<input>
+		<p>New to galaxy? <a>Sign-up here</a></p>
+    </body>
+    <script></script>
