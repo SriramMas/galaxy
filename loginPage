@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html> 
-    <head>
-        <title>Login</title> 
-    </head>
-    <body>
-        password:<input>
+    	<head>
+        	<title>Login</title> 
+    	</head>
+    	<body>
+        	password:<input id='passInput'>
+		<button id='loginButton'>login</button>
 		<p>New to galaxy? <a>Sign-up here</a></p>
-    </body>
-    <script></script>
+    	</body>
+    	<script></script>
+</html>
