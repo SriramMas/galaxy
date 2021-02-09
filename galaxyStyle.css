@@ -14,7 +14,5 @@ em{
 }
 #login{
   background-color:orange;
-  position:absolute;
-  textAlign:right;
   border:5px ridge black;
 }
