@@ -1,18 +1,18 @@
 em{
-  font-size:10px;
+  font-size:20px;
 }
 .channel{
   border: 5px dashed grey;
   background-color:rgb(220,220,220);
-  padding:5px;
-  margin:10px;
+  padding:5px
 }
 .vid{
   padding:5px;
   border:5px solid blue;
-  margin:10px;
 }
 #login{
   background-color:orange;
-  border:5px ridge black;
+  position:absolute;
+  textAlign:right;
+  width:100%;
 }
