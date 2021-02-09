@@ -16,5 +16,5 @@ em{
   background-color:orange;
   position:absolute;
   textAlign:right;
-  width:95%;
+  border:5px ridge black;
 }
