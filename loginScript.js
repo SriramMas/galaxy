@@ -1,4 +1,5 @@
-$('#loginButton').on('submit',function(){
+$('#loginForm').on('submit',function(e){
+	e.PreventDefault();
 	var password=$('passInput').val();
 	var linkToLog='loggedIn';
 	if(password==='rocketx29'){
@@ -6,4 +7,5 @@ $('#loginButton').on('submit',function(){
 	}else{
 		linkToLog+='None';
 	}
+	linkToLog+='.html';
 });
