@@ -8,4 +8,8 @@ $('#loginForm').on('submit',function(e){
 		linkToLog+='None';
 	}
 	linkToLog+='.html';
+	var link=$('<a>');
+	link.text('Login Link')
+	link.attr('href', linkToLog);
+	$('body').append(link);
 });
